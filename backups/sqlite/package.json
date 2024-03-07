@@ -1,0 +1,13 @@
+{
+  "name": "sqlite-backup",
+  "scripts": {
+    "backup": "bun backup.ts",
+    "restore": "bun restore.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

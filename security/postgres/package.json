@@ -1,0 +1,17 @@
+{
+  "name": "postgres-security",
+  "module": "index.ts",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A simple module to secure your postgres database",
+  "main": "index.ts",
+  "scripts": {
+    "change-pass": "bun change-pg-password.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "1.0.4"
+  },
+  "peerDependencies": {
+    "typescript": "5.0.0"
+  }
+}

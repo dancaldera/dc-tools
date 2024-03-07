@@ -1,0 +1,18 @@
+{
+  "name": "bun-postgresql-backups",
+  "version": "2.0.0",
+  "description": "manual-backup-scripts-for-postgresql-with-bun",
+  "scripts": {
+    "backup": "bun backup.ts",
+    "restore": "bun restore.ts"
+  },
+  "keywords": ["bun", "postgresql", "backup", "restore"],
+  "author": "Daniel Caldera",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "1.0.4"
+  },
+  "peerDependencies": {
+    "typescript": "5.0.0"
+  }
+}
