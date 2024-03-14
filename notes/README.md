@@ -1,5 +1,6 @@
 # notes
-## read https://balamurugan16.hashnode.dev/blazingly-fast-cli-with-bun
+
+## read [cli with bun](https://balamurugan16.hashnode.dev/blazingly-fast-cli-with-bun)
 
 To install dependencies:
 
