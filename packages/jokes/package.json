@@ -1,0 +1,14 @@
+{
+  "name": "jokes",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@dc0/jokes": "npm:@jsr/dc0__jokes"
+  }
+}
